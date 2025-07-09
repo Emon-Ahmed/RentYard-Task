@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div >
+    <div className="text-8xl">
       Rent Yard
     </div>
   );
