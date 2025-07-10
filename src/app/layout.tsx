@@ -2,7 +2,7 @@ import { Fustat } from "next/font/google";
 import "./globals.css";
 
 
-const fustat = Fustat();
+const fustat = Fustat({ subsets: ['latin'] });
 
 export const metadata = {
   title: "RentYard | Apartment and House Rental Market Place",
