@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --bottom-shadow: 0 0px 12px rgba(46, 45, 116, 0.08);
+  --color-primary-text-black: rgba(39, 43, 53, 1);
+  --color-secondary-text-black: rgba(119, 121, 128, 1);
+  --color-blue-light: #f9fbff;
+  --button-secondary: 1px solid #e0e0e0;
+}
