@@ -4,7 +4,7 @@ import React from 'react'
 export default function BottomNavbar({ next, previous, nextTitle }: { next?: string, previous?: string, nextTitle?: string }) {
     return (
         <>
-            <div className="absolute inset-x-0 bottom-0 h-19 shadow-[var(--bottom-shadow)] bg-white z-10">
+            <div className="fixed inset-x-0 bottom-0 h-19 shadow-[var(--bottom-shadow)] bg-white z-10">
                 <div className="flex justify-between items-center h-full container mx-auto">
                     {previous ? (
                         <Link href={previous}>
